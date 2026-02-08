@@ -1,13 +1,17 @@
+## Uruchomienie Graftcode Gateway
+
 ./gg --projectKey project_key --modules HelloWorld/
 
-zainstaluj build
+## zainstaluj build
+
 pip install build
 
-stwórz moduł w python
+## stwórz moduł w python
+
 python -m build HelloWorld/
 python -m build MeterMetric/
 
-w celu działania greet edytowałem dwa pliki
+## w celu działania greet edytowałem dwa pliki
 
 node_modules\@graft\pypi-hello-world\HelloWorld.js
 
